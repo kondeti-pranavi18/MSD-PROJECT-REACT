@@ -1,0 +1,37 @@
+.main {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  justify-content: center;
+  padding: 20px;
+  margin-left: 20px;
+}
+.div {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+  text-align: center;
+  padding: 12px;
+  margin: 40px;
+}
+
+.div:hover {
+  transform: translateY(-5px);
+}
+
+.img {
+  width: 100%;
+  max-width: 350px;
+  height: 250px;
+  object-fit: cover;   
+  border-radius: 8px;
+}
+
+.div h2 {
+  margin: 10px 0 5px;
+  color: #00796b;
+}
+
+.div p {
+  margin: 0;
+  color: #555;
+}
